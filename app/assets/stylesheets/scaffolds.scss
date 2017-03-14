@@ -28,8 +28,12 @@ a {
   }
 
   &:hover {
-    color: #fff;
-    background-color: #000;
+    text-shadow: 0px 0px 3px #aaa;
+    // color: #fff;
+    // background-color: #fff;
+    // border: 1px solid lightgrey;
+    // padding: 2px;
+    // border-radius: 10px;
   }
 }
 
@@ -51,7 +55,7 @@ div {
 
 #notice {
   color: green;
-  // need to find out why notice bg displays even without actual notice 
+  // need to find out why notice bg displays even without actual notice
   // background-color: #cec;
   // padding: 10px;
   // border-radius: 10px;
